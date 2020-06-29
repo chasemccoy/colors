@@ -1,0 +1,14 @@
+{
+  "name": "colors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chase McCoy <chasem000@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "build": "node src/fetch-figma-colors.js"
+  }
+}
