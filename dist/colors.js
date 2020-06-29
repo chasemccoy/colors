@@ -1,4 +1,4 @@
-/* Updated at Mon, 29 Jun 2020 01:29:31 GMT*/
+/* Updated at Mon, 29 Jun 2020 01:45:56 GMT*/
 module.exports = {
   "gray": [
     "rgb(248,249,250)",

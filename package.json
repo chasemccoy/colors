@@ -6,9 +6,11 @@
   "license": "MIT",
   "devDependencies": {
     "dotenv": "^8.2.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "outdent": "^0.7.1"
   },
   "scripts": {
-    "build": "node src/fetch-figma-colors.js"
+    "prebuild": "node src/fetch-figma-colors.js",
+    "build": "node src/generate-css.js"
   }
 }
